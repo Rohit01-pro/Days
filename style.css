@@ -12,9 +12,9 @@ body{
   height:100vh;
   display:flex;
   align-items:center;
-  justify-content:center;    
-  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center / cover ; 
-  
+  justify-content:center;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)), url("https://images.pexels.com/photos/614117/pexels-photo-614117.jpeg?auto=compress&cs=tinysrgb&h=650&w=940") no-repeat center / cover ;
+
 }
 
 .title{
@@ -25,7 +25,7 @@ body{
   letter-spacing:4px;
   font-weight: bolder;
   user-select: none;
-  font-family: 'Charm', cursive; 
+  font-family: 'Charm', cursive;
   animation: changeColor 3s infinite;
 }
 @keyframes changeColor{
@@ -39,13 +39,13 @@ body{
 .box-container{
   width:100%;
   margin:auto;
-  display:grid;  
-  grid-gap:10px; 
-  grid-template-columns:repeat(4,1fr); 
+  display:grid;
+  grid-gap:10px;
+  grid-template-columns:repeat(4,1fr);
 }
 .box{
   color:#fff;
-  text-align:center;    
+  text-align:center;
   padding:1.5rem 0 1rem 0;
   border:2px solid #fff;
 }
@@ -66,7 +66,7 @@ label{
  left:50%;
  transform:translateX(-50%);
  list-style:none;
- 
+
 }
 
 .social-media-icons li{
@@ -75,23 +75,23 @@ label{
 }
 
 .social-media-icons li a{
- color:#fff; 
- font-size:1.7rem; 
+ color:#fff;
+ font-size:1.7rem;
  text-align:center;
 }
 
 
 /* For Celebration */
-.wrap{  
-  height:100vh;  
-  display:flex; 
+.wrap{
+  height:100vh;
+  display:flex;
   justify-content:center;
   align-items:center;
   background:   url('https://lh6.googleusercontent.com/proxy/RFIVcD5WS9zqB1fyyhJhNXRK5CvKC3dt7-_cfhHGa7Fc2EGH3ME6g7qF0Sk9eVunCh_TxRbOjOr1F5e_uEtivV9ymMGFDl4OoimFg5gA_N6mYi9_jpoaaRPDGQhmGEt1hsvUon7U=w511-h288') no-repeat center center / cover;
   /* display:none; */
-  
+
 }
-.middle{ 
+.middle{
    text-align:center;
 }
 .middle h1{
@@ -140,12 +140,12 @@ label{
  .social-media-icons{
      top:20px;
      left:25px;
- }  
+ }
  .social-media-icons li{
      display:block;
      margin:4px 0;
  }
-   
+
 }
 
 
